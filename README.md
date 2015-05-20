@@ -1,5 +1,7 @@
 # DEAP
 
+[![Join the chat at https://gitter.im/BlueBrain/deap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BlueBrain/deap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build status](https://travis-ci.org/BlueBrain/deap.svg?branch=bbp-specific)](https://travis-ci.org/BlueBrain/deap) [![Join the chat at https://gitter.im/DEAP/deap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DEAP/deap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 DEAP is a novel evolutionary computation framework for rapid prototyping and testing of 
