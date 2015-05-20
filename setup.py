@@ -52,8 +52,13 @@ def run_setup(build_ext):
     if build_ext:
         extra_modules = list()
 
+        # Hypervolume CPP extension
         hv_module = Extension("deap.tools._hypervolume.hv", sources=["deap/tools/_hypervolume/_hv.c", "deap/tools/_hypervolume/hv.cpp"])
         extra_modules.append(hv_module)
+
+        # EPS indicator C extension
+        eps_module = Extension("deap.tools.eps", sources=["deap/tools/eps.c"])
+        extra_modules.append(eps_module)
 
     setup(name='deap',
           version=deap.__revision__,
